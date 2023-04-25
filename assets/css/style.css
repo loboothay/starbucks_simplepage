@@ -207,3 +207,23 @@ header .line{
     background-size: cover;
     background-position: center;
 }
+
+.area--four{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+
+.area4--content{
+    padding: 160px 80px;
+}
+
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1{
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
